@@ -1,7 +1,5 @@
 # Image of workspace. Learn more: https://www.gitpod.io/docs/configure/workspaces/workspace-image
 image: gitpod/workspace-full:latest
-USER gitpod
-RUN sudo apt-get update -q && sudo apt-get install -yq mc
 
 # List the start up tasks. Learn more: https://www.gitpod.io/docs/configure/workspaces/tasks
 tasks:
