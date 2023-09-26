@@ -5,8 +5,7 @@ tasks:
       sudo install-packages mc dos2unix ; 
       python3 -m pip install -U --user ipython numpy pandas rich
 
-
-
 vscode:
   extensions:
     - ms-python.python
+    - esbenp.prettier-vscode
