@@ -1,3 +1,4 @@
+
 tasks:
   - name: Packages
     command: >
@@ -5,3 +6,7 @@ tasks:
       python3 -m pip install -U --user ipython numpy pandas rich
 
 
+
+vscode:
+  extensions:
+    - ms-python.python
