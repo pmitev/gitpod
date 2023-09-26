@@ -4,6 +4,7 @@ tasks:
     command: |
       sudo install-packages mc dos2unix 
       python3 -m pip install -U --user ipython numpy pandas rich    
+      export TZ='Europe/Berlin'
 
 vscode:
   extensions:
