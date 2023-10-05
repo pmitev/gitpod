@@ -10,3 +10,4 @@ vscode:
   extensions:
     - ms-python.python
     - esbenp.prettier-vscode
+    - ms-toolsai.jupyter
