@@ -2,8 +2,9 @@
 tasks:
   - name: Packages
     command: |
-      sudo install-packages mc dos2unix 
-      python3 -m pip install -U --user ipython numpy pandas rich    
+      sudo install-packages mc dos2unix
+      python3 -m pip install -U --user ipython numpy pandas rich
+      pyenv rehash  
       export TZ='Europe/Berlin'
 
 vscode:
